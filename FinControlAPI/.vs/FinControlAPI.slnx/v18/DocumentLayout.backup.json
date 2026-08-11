@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\47644245847\\Desktop\\pasta\\API\\FinControlAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\47644245847\\Desktop\\pasta\\API\\FinControlAPI\\FinControlAPI\\Contexts\\FinControlDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FinControlAPI\\Contexts\\FinControlDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\47644245847\\desktop\\api\\fincontrolapi\\fincontrolapi\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\47644245847\\desktop\\api\\fincontrolapi\\fincontrolapi\\domains\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\domains\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\47644245847\\desktop\\api\\fincontrolapi\\fincontrolapi\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\47644245847\\desktop\\api\\fincontrolapi\\fincontrolapi\\contexts\\fincontroldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\contexts\\fincontroldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Domains\\Usuario.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\Domains\\Usuario.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Domains\\Usuario.cs",
+              "RelativeToolTip": "FinControlAPI\\Domains\\Usuario.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T13:49:06.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "FinControlAPI\\Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T13:40:51.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\Interfaces\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeToolTip": "FinControlAPI\\Interfaces\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T13:30:57.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "FinControlDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\pasta\\API\\FinControlAPI\\FinControlAPI\\Contexts\\FinControlDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Contexts\\FinControlDbContext.cs",
               "RelativeDocumentMoniker": "FinControlAPI\\Contexts\\FinControlDbContext.cs",
-              "ToolTip": "C:\\Users\\47644245847\\Desktop\\pasta\\API\\FinControlAPI\\FinControlAPI\\Contexts\\FinControlDbContext.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Contexts\\FinControlDbContext.cs",
               "RelativeToolTip": "FinControlAPI\\Contexts\\FinControlDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-11T13:00:27.922Z",
               "EditorCaption": ""
