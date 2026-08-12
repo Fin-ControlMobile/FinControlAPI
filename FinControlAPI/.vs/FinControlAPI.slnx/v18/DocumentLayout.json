@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\47644245847\\desktop\\api\\fincontrolapi\\fincontrolapi\\applications\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\applications\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\47644245847\\desktop\\api\\fincontrolapi\\fincontrolapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\47644245847\\desktop\\api\\fincontrolapi\\fincontrolapi\\dtos\\usuariodto\\criarusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\dtos\\usuariodto\\criarusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\47644245847\\desktop\\api\\fincontrolapi\\fincontrolapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\47644245847\\desktop\\api\\fincontrolapi\\fincontrolapi\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\47644245847\\desktop\\api\\fincontrolapi\\fincontrolapi\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,12 +31,8 @@
       "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\domains\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\47644245847\\desktop\\api\\fincontrolapi\\fincontrolapi\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\47644245847\\desktop\\api\\fincontrolapi\\fincontrolapi\\contexts\\fincontroldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\contexts\\fincontroldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\47644245847\\desktop\\api\\fincontrolapi\\fincontrolapi\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,37 +42,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Domains\\Usuario.cs",
-              "RelativeDocumentMoniker": "FinControlAPI\\Domains\\Usuario.cs",
-              "ToolTip": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Domains\\Usuario.cs",
-              "RelativeToolTip": "FinControlAPI\\Domains\\Usuario.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CriarUsuarioDto.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\DTOs\\UsuarioDto\\CriarUsuarioDto.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\DTOs\\UsuarioDto\\CriarUsuarioDto.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\DTOs\\UsuarioDto\\CriarUsuarioDto.cs",
+              "RelativeToolTip": "FinControlAPI\\DTOs\\UsuarioDto\\CriarUsuarioDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-11T13:49:06.236Z",
+              "WhenOpened": "2026-08-12T13:48:48.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\.env",
+              "RelativeDocumentMoniker": "FinControlAPI\\.env",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\.env",
+              "RelativeToolTip": "FinControlAPI\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-08-12T13:42:25.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Program.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Program.cs",
+              "RelativeToolTip": "FinControlAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T12:50:14.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "FinControlAPI\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T12:04:05.622Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Repositories\\UsuarioRepository.cs",
-              "RelativeDocumentMoniker": "FinControlAPI\\Repositories\\UsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Repositories\\UsuarioRepository.cs",
-              "RelativeToolTip": "FinControlAPI\\Repositories\\UsuarioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Applications\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\Applications\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Applications\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "FinControlAPI\\Applications\\Services\\UsuarioService.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAowGIAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-11T13:40:51.158Z",
+              "WhenOpened": "2026-08-12T11:25:43.18Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "IUsuarioRepository.cs",
               "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Interfaces\\IUsuarioRepository.cs",
               "RelativeDocumentMoniker": "FinControlAPI\\Interfaces\\IUsuarioRepository.cs",
@@ -69,15 +124,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FinControlDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Contexts\\FinControlDbContext.cs",
-              "RelativeDocumentMoniker": "FinControlAPI\\Contexts\\FinControlDbContext.cs",
-              "ToolTip": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Contexts\\FinControlDbContext.cs",
-              "RelativeToolTip": "FinControlAPI\\Contexts\\FinControlDbContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "FinControlAPI\\Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-11T13:00:27.922Z",
+              "WhenOpened": "2026-08-11T13:40:51.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Domains\\Usuario.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\Domains\\Usuario.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Domains\\Usuario.cs",
+              "RelativeToolTip": "FinControlAPI\\Domains\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T13:49:06.236Z",
               "EditorCaption": ""
             }
           ]
