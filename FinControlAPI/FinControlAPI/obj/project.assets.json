@@ -853,6 +853,19 @@
           }
         }
       },
+      "MimeMapping/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MimeMapping.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MimeMapping.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Mono.TextTemplating/3.0.0": {
         "type": "package",
         "dependencies": {
@@ -871,12 +884,43 @@
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "supabase-core/0.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Supabase.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Supabase.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "supabase-storage-csharp/1.4.0": {
+        "type": "package",
+        "dependencies": {
+          "MimeMapping": "2.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "supabase-core": "0.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Supabase.Storage.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Supabase.Storage.dll": {
             "related": ".xml"
           }
         }
@@ -3185,6 +3229,22 @@
         "microsoft.visualstudio.solutionpersistence.nuspec"
       ]
     },
+    "MimeMapping/2.0.0": {
+      "sha512": "hJRJLm91AF3OSs61y3uVZ5e2NRbq9bj0X2FS5q2PKUifP0T2Eu0FsdRL9gXa537tFQIKf+2TANkzsW2s0BZenA==",
+      "type": "package",
+      "path": "mimemapping/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net461/MimeMapping.dll",
+        "lib/net461/MimeMapping.xml",
+        "lib/netstandard2.0/MimeMapping.dll",
+        "lib/netstandard2.0/MimeMapping.xml",
+        "mimemapping.2.0.0.nupkg.sha512",
+        "mimemapping.nuspec"
+      ]
+    },
     "Mono.TextTemplating/3.0.0": {
       "sha512": "YqueG52R/Xej4VVbKuRIodjiAhV0HR/XVbLbNrJhCZnzjnSjgMJ/dCdV0akQQxavX6hp/LC6rqLGLcXeQYU7XA==",
       "type": "package",
@@ -3230,6 +3290,36 @@
         "newtonsoft.json.13.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
+      ]
+    },
+    "supabase-core/0.0.3": {
+      "sha512": "e6NxN3kShudlO9ts378CW3V94op6GsesrVanp6yXSf5K0iRzP36TFf3EpqaSOylgbvBUUfZnPlestCnJ8ULvjA==",
+      "type": "package",
+      "path": "supabase-core/0.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/netstandard2.0/Supabase.Core.dll",
+        "lib/netstandard2.0/Supabase.Core.xml",
+        "supabase-core.0.0.3.nupkg.sha512",
+        "supabase-core.nuspec"
+      ]
+    },
+    "supabase-storage-csharp/1.4.0": {
+      "sha512": "Q8bOtwgJYIyQt/y1yV4GA9bpzZLm6iBLTajck1N2rw+U7Ag9eyQvh4yaPkd5vxBkyiVAk9UUkwAUk6w1ZuhMzA==",
+      "type": "package",
+      "path": "supabase-storage-csharp/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/netstandard2.0/Supabase.Storage.dll",
+        "lib/netstandard2.0/Supabase.Storage.xml",
+        "supabase-storage-csharp.1.4.0.nupkg.sha512",
+        "supabase-storage-csharp.nuspec"
       ]
     },
     "Superpower/3.0.0": {
@@ -3691,27 +3781,28 @@
       "Microsoft.EntityFrameworkCore.Design >= 10.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 10.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 10.0.10",
-      "Swashbuckle.AspNetCore >= 10.2.3"
+      "Swashbuckle.AspNetCore >= 10.2.3",
+      "supabase-storage-csharp >= 1.4.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\47644245847\\.nuget\\packages\\": {},
+    "C:\\Users\\46336142825\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\47644245847\\Desktop\\pasta\\API\\FinControlAPI\\FinControlAPI\\FinControlAPI.csproj",
+      "projectUniqueName": "C:\\Users\\46336142825\\Desktop\\FinControlAPI\\FinControlAPI\\FinControlAPI\\FinControlAPI.csproj",
       "projectName": "FinControlAPI",
-      "projectPath": "C:\\Users\\47644245847\\Desktop\\pasta\\API\\FinControlAPI\\FinControlAPI\\FinControlAPI.csproj",
-      "packagesPath": "C:\\Users\\47644245847\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\47644245847\\Desktop\\pasta\\API\\FinControlAPI\\FinControlAPI\\obj\\",
+      "projectPath": "C:\\Users\\46336142825\\Desktop\\FinControlAPI\\FinControlAPI\\FinControlAPI\\FinControlAPI.csproj",
+      "packagesPath": "C:\\Users\\46336142825\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\46336142825\\Desktop\\FinControlAPI\\FinControlAPI\\FinControlAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\47644245847\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\46336142825\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3781,6 +3872,10 @@
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[10.2.3, )"
+          },
+          "supabase-storage-csharp": {
+            "target": "Package",
+            "version": "[1.4.0, )"
           }
         },
         "imports": [
