@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "FinControlAPI.Controllers.FormaPagamentoController",
+    "Method": "Listar",
+    "RelativePath": "api/FormaPagamento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[FinControlAPI.DTOs.FormaPagamento.ListarFormaPagamentoDto, FinControlAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FinControlAPI.Controllers.FormaPagamentoController",
+    "Method": "Adicionar",
+    "RelativePath": "api/FormaPagamento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "criarDto",
+        "Type": "FinControlAPI.DTOs.FormaPagamento.CriarFormaPagamentoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,10 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\47644245847\\Desktop\\pasta\\API\\FinControlAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\49078790830\\Desktop\\FinControllBackEnd\\FinControlAPI\\FinControlAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\47644245847\\Desktop\\pasta\\API\\FinControlAPI\\FinControlAPI\\Contexts\\FinControlDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FinControlAPI\\Contexts\\FinControlDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\49078790830\\desktop\\fincontrollbackend\\fincontrolapi\\fincontrolapi\\fincontrolapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\49078790830\\desktop\\fincontrollbackend\\fincontrolapi\\fincontrolapi\\fincontrolapi\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\49078790830\\desktop\\fincontrollbackend\\fincontrolapi\\fincontrolapi\\fincontrolapi\\controllers\\formapagamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\controllers\\formapagamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\49078790830\\desktop\\fincontrollbackend\\fincontrolapi\\fincontrolapi\\fincontrolapi\\applications\\service\\formapagamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\applications\\service\\formapagamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\49078790830\\desktop\\fincontrollbackend\\fincontrolapi\\fincontrolapi\\fincontrolapi\\repositories\\formapagamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\repositories\\formapagamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\49078790830\\desktop\\fincontrollbackend\\fincontrolapi\\fincontrolapi\\fincontrolapi\\contexts\\fincontroldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\contexts\\fincontroldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\49078790830\\desktop\\fincontrollbackend\\fincontrolapi\\fincontrolapi\\fincontrolapi\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\49078790830\\desktop\\fincontrollbackend\\fincontrolapi\\fincontrolapi\\fincontrolapi\\interface\\iformapagamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\interface\\iformapagamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\49078790830\\desktop\\fincontrollbackend\\fincontrolapi\\fincontrolapi\\fincontrolapi\\domains\\formapagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\domains\\formapagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\49078790830\\desktop\\fincontrollbackend\\fincontrolapi\\fincontrolapi\\fincontrolapi\\dtos\\formapagamento\\criarformapagamentodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\dtos\\formapagamento\\criarformapagamentodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\49078790830\\desktop\\fincontrollbackend\\fincontrolapi\\fincontrolapi\\fincontrolapi\\dtos\\formapagamento\\listarformapagamentodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\dtos\\formapagamento\\listarformapagamentodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +54,140 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\49078790830\\Desktop\\FinControllBackEnd\\FinControlAPI\\FinControlAPI\\FinControlAPI\\.env",
+              "RelativeDocumentMoniker": "FinControlAPI\\.env",
+              "ToolTip": "C:\\Users\\49078790830\\Desktop\\FinControllBackEnd\\FinControlAPI\\FinControlAPI\\FinControlAPI\\.env",
+              "RelativeToolTip": "FinControlAPI\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-08-12T11:21:16.842Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FinControlDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\pasta\\API\\FinControlAPI\\FinControlAPI\\Contexts\\FinControlDbContext.cs",
-              "RelativeDocumentMoniker": "FinControlAPI\\Contexts\\FinControlDbContext.cs",
-              "ToolTip": "C:\\Users\\47644245847\\Desktop\\pasta\\API\\FinControlAPI\\FinControlAPI\\Contexts\\FinControlDbContext.cs",
-              "RelativeToolTip": "FinControlAPI\\Contexts\\FinControlDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\49078790830\\Desktop\\FinControllBackEnd\\FinControlAPI\\FinControlAPI\\FinControlAPI\\Program.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\49078790830\\Desktop\\FinControllBackEnd\\FinControlAPI\\FinControlAPI\\FinControlAPI\\Program.cs*",
+              "RelativeToolTip": "FinControlAPI\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-11T13:00:27.922Z",
+              "WhenOpened": "2026-08-11T13:53:58.594Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormaPagamentoService.cs",
+              "DocumentMoniker": "C:\\Users\\49078790830\\Desktop\\FinControllBackEnd\\FinControlAPI\\FinControlAPI\\FinControlAPI\\Applications\\Service\\FormaPagamentoService.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\Applications\\Service\\FormaPagamentoService.cs",
+              "ToolTip": "C:\\Users\\49078790830\\Desktop\\FinControllBackEnd\\FinControlAPI\\FinControlAPI\\FinControlAPI\\Applications\\Service\\FormaPagamentoService.cs",
+              "RelativeToolTip": "FinControlAPI\\Applications\\Service\\FormaPagamentoService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T13:35:57.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IFormaPagamentoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\49078790830\\Desktop\\FinControllBackEnd\\FinControlAPI\\FinControlAPI\\FinControlAPI\\Interface\\IFormaPagamentoRepository.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\Interface\\IFormaPagamentoRepository.cs",
+              "ToolTip": "C:\\Users\\49078790830\\Desktop\\FinControllBackEnd\\FinControlAPI\\FinControlAPI\\FinControlAPI\\Interface\\IFormaPagamentoRepository.cs",
+              "RelativeToolTip": "FinControlAPI\\Interface\\IFormaPagamentoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T13:27:41.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormaPagamentoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\49078790830\\Desktop\\FinControllBackEnd\\FinControlAPI\\FinControlAPI\\FinControlAPI\\Repositories\\FormaPagamentoRepository.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\Repositories\\FormaPagamentoRepository.cs",
+              "ToolTip": "C:\\Users\\49078790830\\Desktop\\FinControllBackEnd\\FinControlAPI\\FinControlAPI\\FinControlAPI\\Repositories\\FormaPagamentoRepository.cs",
+              "RelativeToolTip": "FinControlAPI\\Repositories\\FormaPagamentoRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T13:31:07.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormaPagamentoController.cs",
+              "DocumentMoniker": "C:\\Users\\49078790830\\Desktop\\FinControllBackEnd\\FinControlAPI\\FinControlAPI\\FinControlAPI\\Controllers\\FormaPagamentoController.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\Controllers\\FormaPagamentoController.cs",
+              "ToolTip": "C:\\Users\\49078790830\\Desktop\\FinControllBackEnd\\FinControlAPI\\FinControlAPI\\FinControlAPI\\Controllers\\FormaPagamentoController.cs",
+              "RelativeToolTip": "FinControlAPI\\Controllers\\FormaPagamentoController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T13:49:24.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CriarFormaPagamentoDto.cs",
+              "DocumentMoniker": "C:\\Users\\49078790830\\Desktop\\FinControllBackEnd\\FinControlAPI\\FinControlAPI\\FinControlAPI\\DTOs\\FormaPagamento\\CriarFormaPagamentoDto.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\DTOs\\FormaPagamento\\CriarFormaPagamentoDto.cs",
+              "ToolTip": "C:\\Users\\49078790830\\Desktop\\FinControllBackEnd\\FinControlAPI\\FinControlAPI\\FinControlAPI\\DTOs\\FormaPagamento\\CriarFormaPagamentoDto.cs",
+              "RelativeToolTip": "FinControlAPI\\DTOs\\FormaPagamento\\CriarFormaPagamentoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T13:35:19.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormaPagamento.cs",
+              "DocumentMoniker": "C:\\Users\\49078790830\\Desktop\\FinControllBackEnd\\FinControlAPI\\FinControlAPI\\FinControlAPI\\Domains\\FormaPagamento.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\Domains\\FormaPagamento.cs",
+              "ToolTip": "C:\\Users\\49078790830\\Desktop\\FinControllBackEnd\\FinControlAPI\\FinControlAPI\\FinControlAPI\\Domains\\FormaPagamento.cs",
+              "RelativeToolTip": "FinControlAPI\\Domains\\FormaPagamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T13:39:42.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FinControlDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\49078790830\\Desktop\\FinControllBackEnd\\FinControlAPI\\FinControlAPI\\FinControlAPI\\Contexts\\FinControlDbContext.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\Contexts\\FinControlDbContext.cs",
+              "ToolTip": "C:\\Users\\49078790830\\Desktop\\FinControllBackEnd\\FinControlAPI\\FinControlAPI\\FinControlAPI\\Contexts\\FinControlDbContext.cs",
+              "RelativeToolTip": "FinControlAPI\\Contexts\\FinControlDbContext.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAjwBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T13:00:27.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DomainException.cs",
+              "DocumentMoniker": "C:\\Users\\49078790830\\Desktop\\FinControllBackEnd\\FinControlAPI\\FinControlAPI\\FinControlAPI\\Exceptions\\DomainException.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\Exceptions\\DomainException.cs",
+              "ToolTip": "C:\\Users\\49078790830\\Desktop\\FinControllBackEnd\\FinControlAPI\\FinControlAPI\\FinControlAPI\\Exceptions\\DomainException.cs",
+              "RelativeToolTip": "FinControlAPI\\Exceptions\\DomainException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T13:47:23.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ListarFormaPagamentoDto.cs",
+              "DocumentMoniker": "C:\\Users\\49078790830\\Desktop\\FinControllBackEnd\\FinControlAPI\\FinControlAPI\\FinControlAPI\\DTOs\\FormaPagamento\\ListarFormaPagamentoDto.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\DTOs\\FormaPagamento\\ListarFormaPagamentoDto.cs",
+              "ToolTip": "C:\\Users\\49078790830\\Desktop\\FinControllBackEnd\\FinControlAPI\\FinControlAPI\\FinControlAPI\\DTOs\\FormaPagamento\\ListarFormaPagamentoDto.cs",
+              "RelativeToolTip": "FinControlAPI\\DTOs\\FormaPagamento\\ListarFormaPagamentoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T13:35:27.331Z"
             }
           ]
         }
