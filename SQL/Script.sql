@@ -3,6 +3,7 @@ GO
 USE FinControlDb
 GO
 
+--teste
 -- 1. Tabela Usuario
 CREATE TABLE Usuario (
   usuarioId UNIQUEIDENTIFIER NOT NULL DEFAULT NEWID(),
