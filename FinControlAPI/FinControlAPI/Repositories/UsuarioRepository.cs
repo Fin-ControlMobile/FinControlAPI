@@ -19,9 +19,16 @@ namespace FinControlAPI.Repositories
             return _context.Usuario.AsNoTracking().ToList();
         }
 
-        public Usuario ObterPorId(int id)
+        public Usuario ObterPorId(Guid id)
         {
-            return _context.Usuario.Find(id);
+            return _context.Usuario.AsNoTracking().
+                FirstOrDefault(u => u.usuarioId == id);
+        }
+
+        public Usuario ObterPorEmail(string email)
+        {
+            return _context.Usuario.AsNoTracking().
+                FirstOrDefault(u => u.email == email);
         }
 
         public bool emailExistente(string email)

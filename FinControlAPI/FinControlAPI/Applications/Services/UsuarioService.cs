@@ -30,7 +30,9 @@ namespace FinControlAPI.Applications.Services
 
         private static byte[] CriptografarSenha(string senha)
         {
-            return SHA256.HashData(Encoding.UTF8.GetBytes(senha));
+            using var sha256 = SHA256.Create(); // Gera hash e devolve em byte
+
+            return sha256.ComputeHash(Encoding.UTF8.GetBytes(senha));
         }
 
         public List<LerUsuarioDto> Listar()
@@ -59,7 +61,7 @@ namespace FinControlAPI.Applications.Services
             return false;
         }
 
-        public LerUsuarioDto ObterPorId(int id)
+        public LerUsuarioDto ObterPorId(Guid id)
         {
             Usuario usuario = _repository.ObterPorId(id);
             if (usuario == null)

@@ -6,7 +6,9 @@ namespace FinControlAPI.Interfaces
     {
         List<Usuario> Listar();
 
-        Usuario ObterPorId(int id);
+        Usuario ObterPorId(Guid id);
+
+        Usuario ObterPorEmail(string email);
 
         bool emailExistente(string email);
 

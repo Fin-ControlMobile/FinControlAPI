@@ -1,6 +1,7 @@
 ﻿using FinControlAPI.Applications.Services;
 using FinControlAPI.DTOs.UsuarioDto;
 using FinControlAPI.Exceptions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -18,6 +19,7 @@ namespace FinControlAPI.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public ActionResult<List<LerUsuarioDto>> Listar()
         {
             var usuarios = _service.Listar();
@@ -25,7 +27,8 @@ namespace FinControlAPI.Controllers
         }
 
         [HttpGet("{id}")]
-        public ActionResult<LerUsuarioDto> ObterPorId(int id)
+        [Authorize]
+        public ActionResult<LerUsuarioDto> ObterPorId(Guid id)
         {
             LerUsuarioDto usuario = _service.ObterPorId(id);
             if (usuario == null)
