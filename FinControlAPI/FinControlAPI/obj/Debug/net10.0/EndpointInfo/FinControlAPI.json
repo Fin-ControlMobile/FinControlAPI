@@ -214,16 +214,6 @@
         "tags": [
           "Transacao"
         ],
-        "parameters": [
-          {
-            "name": "usuarioId",
-            "in": "query",
-            "schema": {
-              "type": "string",
-              "format": "uuid"
-            }
-          }
-        ],
         "requestBody": {
           "content": {
             "application/json": {
@@ -256,10 +246,6 @@
       "CriarTransacaoDto": {
         "type": "object",
         "properties": {
-          "transacaoId": {
-            "type": "string",
-            "format": "uuid"
-          },
           "valorTransferencia": {
             "type": "number",
             "format": "double"

@@ -80,21 +80,21 @@ namespace FinControlAPI.Aplication.Service
             return dto;
         }
 
-        public void FazerTransferencia(Guid usuarioId,CriarTransacaoDto transacaoDto)
+        public void FazerTransferencia(CriarTransacaoDto transacaoDto)
         {
             // Nao tera validacao de destinatario, pois o mesmo pode nao existir no sistema
-            if (!_repository.UsuarioExiste(usuarioId))
+            if (!_repository.UsuarioExiste(transacaoDto.usuarioRemetenteId))
             {
                 throw new DomainException("Usuário remetente não encontrado");
             }
-            transacaoDto.usuarioDestinatarioId = usuarioId;
+
 
             if (!_repository.TipoPagamentoExiste(transacaoDto.formaPagamentoId))
             {
                 throw new DomainException("Tipo de pagamento não encontrado");
             }
 
-            if(transacaoDto.valorTransferencia >= 0)
+            if(transacaoDto.valorTransferencia <= 0)
             {
                 throw new DomainException("Valor de transferência nao pode ser negativo");
             }
@@ -104,7 +104,9 @@ namespace FinControlAPI.Aplication.Service
                 throw new DomainException("Usuário remetente e destinatário não podem ser o mesmo");
             }
 
-            _repository.FazerTransferencia(ConverterTransacao.ConverterParaDomain(transacaoDto));
+            Transacao transacao = ConverterTransacao.ConverterParaDomain(transacaoDto);
+
+            _repository.FazerTransferencia(transacao);
         }
     }
 }

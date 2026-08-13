@@ -26,12 +26,11 @@ namespace FinControlAPI.Aplication.Conversao
         {
             return new Transacao
             {
-                transacaoId = transacaoDto.transacaoId,
                 valorTransferencia = transacaoDto.valorTransferencia,
                 descricao = transacaoDto.descricao,
                 formaPagamentoId = transacaoDto.formaPagamentoId,
-                usuarioRemetenteId = transacaoDto.usuarioRemetenteId,
-                usuarioDestinatarioId = transacaoDto.usuarioDestinatarioId
+                usuarioDestinatarioId = transacaoDto.usuarioDestinatarioId,
+                usuarioRemetenteId = transacaoDto.usuarioRemetenteId
             };
         }
     }

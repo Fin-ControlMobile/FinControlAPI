@@ -8,11 +8,6 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "usuarioId",
-        "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
         "Name": "dto",
         "Type": "FinControlAPI.DTOs.CriarTransacaoDto",
         "IsRequired": true

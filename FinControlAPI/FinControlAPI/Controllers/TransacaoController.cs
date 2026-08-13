@@ -68,11 +68,11 @@ namespace FinControlAPI.Controllers
         }
 
         [HttpPost("FazerTransferencia")]
-        public ActionResult FazerTransferencia(Guid usuarioId,CriarTransacaoDto dto)
+        public ActionResult FazerTransferencia(CriarTransacaoDto dto)
         {
             try
             {
-                _service.FazerTransferencia(usuarioId ,dto);
+                _service.FazerTransferencia(dto);
                 return Ok();
             }
             catch (DomainException ex)

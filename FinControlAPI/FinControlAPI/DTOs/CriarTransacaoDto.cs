@@ -2,7 +2,6 @@
 {
     public class CriarTransacaoDto
     {
-        public Guid transacaoId { get; set; }
         public decimal valorTransferencia { get; set; }
         public string? descricao { get; set; }
         public Guid usuarioRemetenteId { get; set; }
