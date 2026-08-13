@@ -20,6 +20,7 @@ namespace FinControlAPI.Applications.Services
         {
             return new LerUsuarioDto
             {
+                usuarioId = usuario.usuarioId,
                 nome = usuario.nome,
                 email = usuario.email,
                 saldo = usuario.saldo,
@@ -43,6 +44,19 @@ namespace FinControlAPI.Applications.Services
             }
 
             return usuariosDto;
+        }
+
+        private static bool NomePossuiNumeros(string nome)
+        {
+            foreach (char caractere in nome)
+            {
+                if (char.IsDigit(caractere))
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
 
         public LerUsuarioDto ObterPorId(int id)
@@ -85,6 +99,11 @@ namespace FinControlAPI.Applications.Services
             if (usuarioDto.email.Length < 11)
             {
                 throw new DomainException("Insira um email válido.");
+            }
+
+            if (NomePossuiNumeros(usuarioDto.nome))
+            {
+                throw new DomainException("O nome não pode conter números.");
             }
 
             if (EmailExistente(usuarioDto.email))
