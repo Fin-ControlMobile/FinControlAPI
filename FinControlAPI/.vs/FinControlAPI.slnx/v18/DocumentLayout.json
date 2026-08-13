@@ -3,6 +3,54 @@
   "WorkspaceRootPath": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\47644245847\\desktop\\api\\fincontrolapi\\fincontrolapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\47644245847\\desktop\\api\\fincontrolapi\\fincontrolapi\\controllers\\autenticacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\controllers\\autenticacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\47644245847\\desktop\\api\\fincontrolapi\\fincontrolapi\\applications\\autenticacao\\criptografiausuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\applications\\autenticacao\\criptografiausuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\47644245847\\desktop\\api\\fincontrolapi\\fincontrolapi\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\47644245847\\desktop\\api\\fincontrolapi\\fincontrolapi\\applications\\autenticacao\\geradortokenjwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\applications\\autenticacao\\geradortokenjwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\47644245847\\desktop\\api\\fincontrolapi\\fincontrolapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\47644245847\\desktop\\api\\fincontrolapi\\fincontrolapi\\applications\\services\\autenticacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\applications\\services\\autenticacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\47644245847\\desktop\\api\\fincontrolapi\\fincontrolapi\\applications\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\applications\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\47644245847\\desktop\\api\\fincontrolapi\\fincontrolapi\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\47644245847\\desktop\\api\\fincontrolapi\\fincontrolapi\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\47644245847\\desktop\\api\\fincontrolapi\\fincontrolapi\\dtos\\autenticacaodto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\dtos\\autenticacaodto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\47644245847\\desktop\\api\\fincontrolapi\\fincontrolapi\\dtos\\autenticacaodto\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\dtos\\autenticacaodto\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|c:\\users\\47644245847\\desktop\\api\\fincontrolapi\\fincontrolapi\\contexts\\fincontroldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19B204FD-5D4D-19D1-2C78-67F5EC41DFDD}|FinControlAPI\\FinControlAPI.csproj|solutionrelative:fincontrolapi\\contexts\\fincontroldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,11 +62,167 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Applications\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\Applications\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Applications\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "FinControlAPI\\Applications\\Services\\UsuarioService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T11:57:38.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GeradorTokenJwt.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Applications\\Autenticacao\\GeradorTokenJwt.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\Applications\\Autenticacao\\GeradorTokenJwt.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Applications\\Autenticacao\\GeradorTokenJwt.cs",
+              "RelativeToolTip": "FinControlAPI\\Applications\\Autenticacao\\GeradorTokenJwt.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwCEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T11:44:02.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CriptografiaUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Applications\\Autenticacao\\CriptografiaUsuario.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\Applications\\Autenticacao\\CriptografiaUsuario.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Applications\\Autenticacao\\CriptografiaUsuario.cs",
+              "RelativeToolTip": "FinControlAPI\\Applications\\Autenticacao\\CriptografiaUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T11:42:37.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\.env",
+              "RelativeDocumentMoniker": "FinControlAPI\\.env",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\.env",
+              "RelativeToolTip": "FinControlAPI\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-08-13T12:15:10.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AutenticacaoController.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Controllers\\AutenticacaoController.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\Controllers\\AutenticacaoController.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Controllers\\AutenticacaoController.cs",
+              "RelativeToolTip": "FinControlAPI\\Controllers\\AutenticacaoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T11:54:05.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "FinControlAPI\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T12:03:20.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\Interfaces\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeToolTip": "FinControlAPI\\Interfaces\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T12:00:30.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "FinControlAPI\\Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T12:00:58.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Program.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Program.cs",
+              "RelativeToolTip": "FinControlAPI\\Program.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T12:04:39.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AutenticacaoService.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Applications\\Services\\AutenticacaoService.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\Applications\\Services\\AutenticacaoService.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Applications\\Services\\AutenticacaoService.cs",
+              "RelativeToolTip": "FinControlAPI\\Applications\\Services\\AutenticacaoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T11:51:20.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\DTOs\\AutenticacaoDto\\LoginDto.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\DTOs\\AutenticacaoDto\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\DTOs\\AutenticacaoDto\\LoginDto.cs",
+              "RelativeToolTip": "FinControlAPI\\DTOs\\AutenticacaoDto\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T11:52:02.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TokenDto.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\DTOs\\AutenticacaoDto\\TokenDto.cs",
+              "RelativeDocumentMoniker": "FinControlAPI\\DTOs\\AutenticacaoDto\\TokenDto.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\DTOs\\AutenticacaoDto\\TokenDto.cs",
+              "RelativeToolTip": "FinControlAPI\\DTOs\\AutenticacaoDto\\TokenDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T11:52:51.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "FinControlDbContext.cs",
               "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\API\\FinControlAPI\\FinControlAPI\\Contexts\\FinControlDbContext.cs",
               "RelativeDocumentMoniker": "FinControlAPI\\Contexts\\FinControlDbContext.cs",
