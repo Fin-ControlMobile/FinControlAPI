@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinControlAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b7472d3d0982cfa749cca7e6633d2da28e7269c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32492393c01844e08d7fc84480c3b0d99857835f")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinControlAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinControlAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
