@@ -26,6 +26,112 @@
     ]
   },
   {
+    "ContainingType": "FinControlAPI.Controllers.TransacaoController",
+    "Method": "Listar",
+    "RelativePath": "api/Transacao",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[FinControlAPI.DTOs.TransacaoDto.LerTransacaoDto, FinControlAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FinControlAPI.Controllers.TransacaoController",
+    "Method": "ListarPorTipoTransacao",
+    "RelativePath": "api/Transacao/forma/{formaPagamentoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formaPagamentoId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[FinControlAPI.DTOs.TransacaoDto.LerTransacaoDto, FinControlAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FinControlAPI.Controllers.TransacaoController",
+    "Method": "ListarHoje",
+    "RelativePath": "api/Transacao/hoje",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[FinControlAPI.DTOs.TransacaoDto.LerTransacaoDto, FinControlAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FinControlAPI.Controllers.TransacaoController",
+    "Method": "ListarOntem",
+    "RelativePath": "api/Transacao/ontem",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[FinControlAPI.DTOs.TransacaoDto.LerTransacaoDto, FinControlAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FinControlAPI.Controllers.TransacaoController",
+    "Method": "ListarRecentes",
+    "RelativePath": "api/Transacao/recentes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[FinControlAPI.DTOs.TransacaoDto.LerTransacaoDto, FinControlAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "FinControlAPI.Controllers.UsuarioController",
     "Method": "Listar",
     "RelativePath": "api/Usuario",

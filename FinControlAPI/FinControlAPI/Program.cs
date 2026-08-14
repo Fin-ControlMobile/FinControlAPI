@@ -44,9 +44,13 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-// USUÁRIO
+// USUARIO
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<UsuarioService>();
+
+// TRANSACAO
+builder.Services.AddScoped<ITransacaoRepository, TransacaoRepository>();
+builder.Services.AddScoped<TransacaoService>();
 
 // JWT
 builder.Services.AddScoped<GeradorTokenJwt>();
