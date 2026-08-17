@@ -9,5 +9,6 @@ namespace FinControlAPI.Interfaces
         List<Transacao> ListarOntem(Guid usuarioId);
         List<Transacao> ListarRecentes(Guid usuarioId);
         List<Transacao> ListarPorTipoTransacao(Guid usuarioId, Guid formaPagamentoId);
+        Transacao ObterTransacaoPorId(Guid transacaoId);
     }
 }

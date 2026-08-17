@@ -93,6 +93,32 @@
   },
   {
     "ContainingType": "FinControlAPI.Controllers.TransacaoController",
+    "Method": "ObterTransacao",
+    "RelativePath": "api/Transacao/obterTransacao/{transacaoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transacaoId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FinControlAPI.DTOs.TransacaoDto.LerTransacaoDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FinControlAPI.Controllers.TransacaoController",
     "Method": "ListarOntem",
     "RelativePath": "api/Transacao/ontem",
     "HttpMethod": "GET",

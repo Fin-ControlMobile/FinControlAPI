@@ -96,5 +96,15 @@ namespace FinControlAPI.Repositories
                     t.formaPagamentoId == formaPagamentoId)
                 .ToList();
         }
+
+        public Transacao ObterTransacaoPorId(Guid transacaoId)
+        {
+            return _context.Transacao
+                .AsNoTracking()
+                .Include(t => t.usuarioRemetente)
+                .Include(t => t.usuarioDestinatario)
+                .Include(t => t.formaPagamento)
+                .FirstOrDefault(t => t.transacaoId == transacaoId);
+        }
     }
 }

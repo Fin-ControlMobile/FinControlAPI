@@ -70,5 +70,18 @@ namespace FinControlAPI.Controllers
                 )
             );
         }
+
+        [HttpGet("obterTransacao/{transacaoId}")]
+        public ActionResult<LerTransacaoDto> ObterTransacao(Guid transacaoId)
+        {
+            Guid usuarioId = ObterUsuarioId();
+
+            return Ok(
+                _service.ObterTransacaoPorId(
+                    usuarioId, 
+                    transacaoId
+                    )
+                );
+        }
     }
 }

@@ -68,5 +68,11 @@ namespace FinControlAPI.Applications.Services
             List<LerTransacaoDto> listaTransacacoes = _repository.ListarPorTipoTransacao(usuarioId, formaPagamentoId).Select(t => ConverterParaDto(ManipularValor(usuarioId, t))).ToList();
             return listaTransacacoes;
         }
+
+        public LerTransacaoDto ObterTransacaoPorId(Guid usuarioId,Guid transacaoId)
+        {
+            LerTransacaoDto dto = ConverterParaDto(ManipularValor(usuarioId, _repository.ObterTransacaoPorId(transacaoId)));
+            return dto;
+        }
     }
 }
