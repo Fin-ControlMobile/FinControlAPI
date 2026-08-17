@@ -45,6 +45,8 @@ namespace FinControlAPI.Applications.Services
                 usuariosDto.Add(ConverterParaDto(usuario));
             }
 
+            List<LerUsuarioDto> listaUsuario = _repository.Listar().Select(u => ConverterParaDto(u)).ToList();
+
             return usuariosDto;
         }
 
