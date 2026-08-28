@@ -26,6 +26,7 @@ namespace FinControlAPI.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public ActionResult<List<LerTransacaoDto>> Listar()
         {
             Guid usuarioId = ObterUsuarioId();
@@ -34,6 +35,7 @@ namespace FinControlAPI.Controllers
         }
 
         [HttpGet("hoje")]
+        [Authorize]
         public ActionResult<List<LerTransacaoDto>> ListarHoje()
         {
             Guid usuarioId = ObterUsuarioId();
@@ -42,6 +44,7 @@ namespace FinControlAPI.Controllers
         }
 
         [HttpGet("ontem")]
+        [Authorize]
         public ActionResult<List<LerTransacaoDto>> ListarOntem()
         {
             Guid usuarioId = ObterUsuarioId();
@@ -50,6 +53,7 @@ namespace FinControlAPI.Controllers
         }
 
         [HttpGet("recentes")]
+        [Authorize]
         public ActionResult<List<LerTransacaoDto>> ListarRecentes()
         {
             Guid usuarioId = ObterUsuarioId();
@@ -58,6 +62,7 @@ namespace FinControlAPI.Controllers
         }
 
         [HttpGet("forma/{formaPagamentoId}")]
+        [Authorize]
         public ActionResult<List<LerTransacaoDto>> ListarPorTipoTransacao(
             Guid formaPagamentoId)
         {
@@ -72,13 +77,14 @@ namespace FinControlAPI.Controllers
         }
 
         [HttpGet("obterTransacao/{transacaoId}")]
+        [Authorize]
         public ActionResult<LerTransacaoDto> ObterTransacao(Guid transacaoId)
         {
             Guid usuarioId = ObterUsuarioId();
 
             return Ok(
                 _service.ObterTransacaoPorId(
-                    usuarioId, 
+                    usuarioId,
                     transacaoId
                     )
                 );

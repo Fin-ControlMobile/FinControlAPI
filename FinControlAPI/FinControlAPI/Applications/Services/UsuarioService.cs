@@ -100,9 +100,14 @@ namespace FinControlAPI.Applications.Services
                 throw new DomainException("A senha deve ter pelo menos 8 caracteres.");
             }
 
+            if (!usuarioDto.email.Contains("@"))
+            {
+                throw new DomainException("O E-mail deve conter '@' e no mínimo 11 caracteres.");
+            }
+
             if (usuarioDto.email.Length < 11)
             {
-                throw new DomainException("Insira um email válido.");
+                throw new DomainException("O E-mail deve conter '@' e no mínimo 11 caracteres");
             }
 
             if (NomePossuiNumeros(usuarioDto.nome))
