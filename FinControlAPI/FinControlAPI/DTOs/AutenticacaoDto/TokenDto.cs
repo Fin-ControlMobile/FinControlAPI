@@ -1,7 +1,7 @@
-﻿namespace FinControlAPI.DTOs.AutenticacaoDto
-{
-    public class TokenDto
+﻿    namespace FinControlAPI.DTOs.AutenticacaoDto
     {
-        public string Token { get; set; } = null!;
+        public class TokenDto
+        {
+            public string token { get; set; } = null!;
+        }
     }
-}

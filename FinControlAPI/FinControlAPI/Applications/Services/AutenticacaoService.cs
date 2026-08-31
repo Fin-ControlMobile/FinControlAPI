@@ -44,7 +44,7 @@ namespace FinControlAPI.Applications.Services
             // Geração do token
             var token = _tokenJwt.GerarToken(usuario);
 
-            TokenDto novoToken = new TokenDto { Token = token };
+            TokenDto novoToken = new TokenDto { token = token };
 
             return novoToken;
         }
