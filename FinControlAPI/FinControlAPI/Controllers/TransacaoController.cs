@@ -26,6 +26,7 @@ namespace FinControlAPI.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public ActionResult<List<LerTransacaoDto>> Listar()
         {
             Guid usuarioId = ObterUsuarioId();
