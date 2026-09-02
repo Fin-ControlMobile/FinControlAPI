@@ -3701,11 +3701,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\47644245847\\Desktop\\pasta\\API\\FinControlAPI\\FinControlAPI\\FinControlAPI.csproj",
+      "projectUniqueName": "C:\\Users\\47644245847\\Desktop\\FinControlAPI\\FinControlAPI\\FinControlAPI\\FinControlAPI.csproj",
       "projectName": "FinControlAPI",
-      "projectPath": "C:\\Users\\47644245847\\Desktop\\pasta\\API\\FinControlAPI\\FinControlAPI\\FinControlAPI.csproj",
+      "projectPath": "C:\\Users\\47644245847\\Desktop\\FinControlAPI\\FinControlAPI\\FinControlAPI\\FinControlAPI.csproj",
       "packagesPath": "C:\\Users\\47644245847\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\47644245847\\Desktop\\pasta\\API\\FinControlAPI\\FinControlAPI\\obj\\",
+      "outputPath": "C:\\Users\\47644245847\\Desktop\\FinControlAPI\\FinControlAPI\\FinControlAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

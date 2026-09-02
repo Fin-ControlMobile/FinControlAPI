@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VqW9ruMiFCQ=",
+  "dgSpecHash": "nfKjAKqBWcE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\47644245847\\Desktop\\pasta\\API\\FinControlAPI\\FinControlAPI\\FinControlAPI.csproj",
+  "projectFilePath": "C:\\Users\\47644245847\\Desktop\\FinControlAPI\\FinControlAPI\\FinControlAPI\\FinControlAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\47644245847\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\47644245847\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
