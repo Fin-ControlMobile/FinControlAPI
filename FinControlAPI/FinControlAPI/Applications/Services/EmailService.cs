@@ -54,16 +54,171 @@ namespace FinControlAPI.Applications.Services
             mensagem.Subject = "Redefinição de senha - FinControl";
 
             // Corpo do e-mail
-            mensagem.Body = new TextPart("plain")
+            mensagem.Body = new TextPart("html")
             {
-                Text =
-                    "Olá!\n\n" +
-                    "Recebemos uma solicitação para redefinir sua senha.\n\n" +
-                    "Seu código de redefinição é:\n\n" +
-                    $"{token}\n\n" +
-                    "Esse código é válido por 60 minutos.\n\n" +
-                    "Caso você não tenha solicitado a redefinição, ignore este e-mail.\n\n" +
-                    "Equipe FinControl"
+                Text = $@"
+<!DOCTYPE html>
+<html lang='pt-BR'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+</head>
+
+<body style='
+    margin: 0;
+    padding: 0;
+    background-color: #F5F3FA;
+    font-family: Arial, Helvetica, sans-serif;
+'>
+
+    <div style='
+        max-width: 600px;
+        margin: 40px auto;
+        background-color: #FFFFFF;
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    '>
+
+        <!-- Cabeçalho -->
+        <div style='
+            background-color: #7548D8;
+            padding: 30px;
+            text-align: center;
+        '>
+            <h1 style='
+                margin: 0;
+                color: #FFFFFF;
+                font-size: 28px;
+            '>
+                FinControl
+            </h1>
+
+            <p style='
+                margin: 8px 0 0;
+                color: #EDE7FF;
+                font-size: 14px;
+            '>
+                Seu dinheiro. Seu controle.
+            </p>
+        </div>
+
+        <!-- Conteúdo -->
+        <div style='
+            padding: 40px 35px;
+            color: #333333;
+        '>
+
+            <h2 style='
+                margin-top: 0;
+                color: #222222;
+                font-size: 24px;
+            '>
+                Redefinição de senha
+            </h2>
+
+            <p style='
+                font-size: 16px;
+                line-height: 1.6;
+            '>
+                Olá!
+            </p>
+
+            <p style='
+                font-size: 16px;
+                line-height: 1.6;
+            '>
+                Recebemos uma solicitação para redefinir a senha
+                da sua conta no <strong>FinControl</strong>.
+            </p>
+
+            <p style='
+                font-size: 16px;
+                line-height: 1.6;
+            '>
+                Utilize o código abaixo para continuar:
+            </p>
+
+            <!-- Código -->
+            <div style='
+                margin: 30px 0;
+                padding: 25px;
+                background-color: #F3EEFF;
+                border: 1px solid #D9C9FF;
+                border-radius: 12px;
+                text-align: center;
+            '>
+
+                <p style='
+                    margin: 0 0 10px;
+                    color: #666666;
+                    font-size: 13px;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                '>
+                    Código de redefinição
+                </p>
+
+                <div style='
+                    color: #7548D8;
+                    font-size: 25px;
+                    font-weight: bold;
+                    letter-spacing: 5px;
+                '>
+                    {token}
+                </div>
+
+            </div>
+
+            <p style='
+                font-size: 14px;
+                line-height: 1.6;
+                color: #666666;
+            '>
+                ⏱ Este código é válido por <strong>60 minutos</strong>.
+            </p>
+
+            <p style='
+                font-size: 14px;
+                line-height: 1.6;
+                color: #666666;
+            '>
+                Se você não solicitou a redefinição da sua senha,
+                pode ignorar este e-mail. Sua conta continuará segura.
+            </p>
+
+        </div>
+
+        <!-- Rodapé -->
+        <div style='
+            background-color: #F8F7FB;
+            padding: 25px;
+            text-align: center;
+            border-top: 1px solid #EEEEEE;
+        '>
+
+            <p style='
+                margin: 0;
+                color: #777777;
+                font-size: 12px;
+            '>
+                © {DateTime.Now.Year} FinControl
+            </p>
+
+            <p style='
+                margin: 8px 0 0;
+                color: #999999;
+                font-size: 11px;
+            '>
+                Este é um e-mail automático. Por favor, não responda.
+            </p>
+
+        </div>
+
+    </div>
+
+</body>
+</html>"
             };
 
             using var smtp = new SmtpClient();
