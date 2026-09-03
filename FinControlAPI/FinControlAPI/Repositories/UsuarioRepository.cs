@@ -1,5 +1,6 @@
 ﻿using FinControlAPI.Contexts;
 using FinControlAPI.Domains;
+using FinControlAPI.DTOs.AutenticacaoDto;
 using FinControlAPI.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
@@ -25,10 +26,10 @@ namespace FinControlAPI.Repositories
                 FirstOrDefault(u => u.usuarioId == id);
         }
 
-        public Usuario ObterPorEmail(string email)
+        public Task<Usuario> ObterPorEmail(string email)
         {
             return _context.Usuario.AsNoTracking().
-                FirstOrDefault(u => u.email == email);
+                FirstOrDefaultAsync(u => u.email == email);
         }
 
         public bool emailExistente(string email)
@@ -40,6 +41,12 @@ namespace FinControlAPI.Repositories
         {
             _context.Usuario.Add(usuario);
             _context.SaveChanges();
+        }
+
+        public async Task AtualizarAsync(Usuario usuario)
+        {
+            _context.Usuario.Update(usuario);
+            await _context.SaveChangesAsync();
         }
 
     }

@@ -39,3 +39,16 @@ CREATE TABLE Transacao (
   CONSTRAINT FK_Transacao_FormaPagamento FOREIGN KEY (formaPagamentoId) REFERENCES FormaPagamento (formaId)
 );
 GO
+
+--4. Tabela Token Redefinicao de senha
+CREATE TABLE TokenRedefinicaoSenha (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    usuarioId UNIQUEIDENTIFIER NOT NULL,
+    tokenHash VARCHAR(255) NOT NULL,
+    expiraEm DATETIME2 NOT NULL,
+    utilizado BIT NOT NULL DEFAULT 0,
+
+    CONSTRAINT FK_TokenRedefinicaoSenha_Usuario
+        FOREIGN KEY (usuarioId)
+        REFERENCES Usuario(usuarioId)
+);
