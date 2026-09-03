@@ -1,17 +1,15 @@
 ﻿using FinControlAPI.Domains;
+using FinControlAPI.DTOs.AutenticacaoDto;
 
 namespace FinControlAPI.Interfaces
 {
     public interface IUsuarioRepository
     {
         List<Usuario> Listar();
-
         Usuario ObterPorId(Guid id);
-
-        Usuario ObterPorEmail(string email);
-
+        Task<Usuario> ObterPorEmail(string email);
         bool emailExistente(string email);
-
         void Cadastrar(Usuario usuario);
+        Task AtualizarAsync(Usuario usuario);
     }
 }

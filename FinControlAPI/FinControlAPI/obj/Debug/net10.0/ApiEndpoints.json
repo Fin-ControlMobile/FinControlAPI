@@ -26,6 +26,38 @@
     ]
   },
   {
+    "ContainingType": "FinControlAPI.Controllers.AutenticacaoController",
+    "Method": "RedefinirSenha",
+    "RelativePath": "api/Autenticacao/redefinir-senha",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FinControlAPI.DTOs.AutenticacaoDto.RedefinirSenhaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinControlAPI.Controllers.AutenticacaoController",
+    "Method": "SolicitarRedefinicaoSenha",
+    "RelativePath": "api/Autenticacao/solicitar-redefinicao",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FinControlAPI.DTOs.AutenticacaoDto.SolicitarRedefinicaoSenhaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FinControlAPI.Controllers.TransacaoController",
     "Method": "Listar",
     "RelativePath": "api/Transacao",

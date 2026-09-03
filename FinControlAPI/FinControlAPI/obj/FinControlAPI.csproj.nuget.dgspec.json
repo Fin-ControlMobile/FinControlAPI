@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\46336142825\\Desktop\\FinControlAPI\\FinControlAPI\\FinControlAPI\\FinControlAPI.csproj": {}
+    "C:\\Users\\52918563862\\Desktop\\FinControlBack\\FinControlAPI\\FinControlAPI\\FinControlAPI\\FinControlAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\46336142825\\Desktop\\FinControlAPI\\FinControlAPI\\FinControlAPI\\FinControlAPI.csproj": {
+    "C:\\Users\\52918563862\\Desktop\\FinControlBack\\FinControlAPI\\FinControlAPI\\FinControlAPI\\FinControlAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\46336142825\\Desktop\\FinControlAPI\\FinControlAPI\\FinControlAPI\\FinControlAPI.csproj",
+        "projectUniqueName": "C:\\Users\\52918563862\\Desktop\\FinControlBack\\FinControlAPI\\FinControlAPI\\FinControlAPI\\FinControlAPI.csproj",
         "projectName": "FinControlAPI",
-        "projectPath": "C:\\Users\\46336142825\\Desktop\\FinControlAPI\\FinControlAPI\\FinControlAPI\\FinControlAPI.csproj",
-        "packagesPath": "C:\\Users\\46336142825\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\46336142825\\Desktop\\FinControlAPI\\FinControlAPI\\FinControlAPI\\obj\\",
+        "projectPath": "C:\\Users\\52918563862\\Desktop\\FinControlBack\\FinControlAPI\\FinControlAPI\\FinControlAPI\\FinControlAPI.csproj",
+        "packagesPath": "C:\\Users\\52918563862\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\52918563862\\Desktop\\FinControlBack\\FinControlAPI\\FinControlAPI\\FinControlAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\46336142825\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\52918563862\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net10.0": {
@@ -55,6 +55,10 @@
             "DotNetEnv": {
               "target": "Package",
               "version": "[3.2.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.17.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -108,7 +112,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
