@@ -49,5 +49,17 @@ namespace FinControlAPI.Repositories
             await _context.SaveChangesAsync();
         }
 
+        public bool VeriificarPrimeiroAcesso(Guid usuarioId)
+        {
+            Usuario usuario = _context.Usuario.Find(usuarioId);
+            return usuario.primeiroAcesso;
+        }
+        public void AtualizarPrimeiroAcesso(Guid usuarioId)
+        {
+            Usuario usuario = _context.Usuario.Find(usuarioId);
+            usuario.primeiroAcesso = false;
+            _context.SaveChanges();
+        }
+
     }
 }

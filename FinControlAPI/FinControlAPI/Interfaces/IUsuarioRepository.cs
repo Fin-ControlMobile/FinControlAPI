@@ -11,5 +11,7 @@ namespace FinControlAPI.Interfaces
         bool emailExistente(string email);
         void Cadastrar(Usuario usuario);
         Task AtualizarAsync(Usuario usuario);
+        bool VeriificarPrimeiroAcesso(Guid usuarioId);
+        void AtualizarPrimeiroAcesso(Guid usuarioId);
     }
 }

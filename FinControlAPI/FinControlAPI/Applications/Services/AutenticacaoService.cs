@@ -68,6 +68,11 @@ namespace FinControlAPI.Applications.Services
                 token = token
             };
 
+            if(_repository.VeriificarPrimeiroAcesso(usuario.usuarioId))
+            {
+                _repository.AtualizarPrimeiroAcesso(usuario.usuarioId);
+            }
+
             return novoToken;
         }
 
