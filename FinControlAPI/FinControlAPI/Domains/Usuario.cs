@@ -17,7 +17,11 @@ public partial class Usuario
 
     public bool primeiroAcesso { get; set; }
 
+    public virtual ICollection<TokenRedefinicaoSenha> TokenRedefinicaoSenha { get; set; } = new List<TokenRedefinicaoSenha>();
+
     public virtual ICollection<Transacao> TransacaousuarioDestinatario { get; set; } = new List<Transacao>();
 
     public virtual ICollection<Transacao> TransacaousuarioRemetente { get; set; } = new List<Transacao>();
+
+    public virtual ICollection<Dispositivo> dispositivo { get; set; } = new List<Dispositivo>();
 }

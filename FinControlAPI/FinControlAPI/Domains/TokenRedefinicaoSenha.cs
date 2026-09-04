@@ -5,13 +5,15 @@ namespace FinControlAPI.Domains;
 
 public partial class TokenRedefinicaoSenha
 {
-    public int Id { get; set; }
+    public int id { get; set; }
 
-    public Guid UsuarioId { get; set; }
+    public Guid usuarioId { get; set; }
 
-    public string TokenHash { get; set; } = null!;
+    public string tokenHash { get; set; } = null!;
 
-    public DateTime ExpiraEm { get; set; }
+    public DateTime expiraEm { get; set; }
 
-    public bool Utilizado { get; set; }
+    public bool utilizado { get; set; }
+
+    public virtual Usuario usuario { get; set; } = null!;
 }

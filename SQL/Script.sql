@@ -1,9 +1,21 @@
+USE master;
+GO
+
+-- Força a queda de todas as conexões e põe o banco em Single User
+ALTER DATABASE FinControlDb 
+SET SINGLE_USER 
+WITH ROLLBACK IMMEDIATE;
+GO
+
+-- Deleta o banco de vez
+DROP DATABASE FinControlDb;
+GO
+
 CREATE DATABASE FinControlDb
 GO
 USE FinControlDb
 GO
 
---teste
 -- 1. Tabela Usuario
 CREATE TABLE Usuario (
   usuarioId UNIQUEIDENTIFIER NOT NULL DEFAULT NEWID(),
@@ -52,3 +64,24 @@ CREATE TABLE TokenRedefinicaoSenha (
         FOREIGN KEY (usuarioId)
         REFERENCES Usuario(usuarioId)
 );
+
+CREATE TABLE Dispositivo (
+    dispositivoId UNIQUEIDENTIFIER NOT NULL DEFAULT NEWID(),
+    nomeDispositivo VARCHAR(64) NOT NULL
+    CONSTRAINT PK_Dispositivo PRIMARY KEY (dispositivoId)
+);
+GO
+
+CREATE TABLE UsuarioDispositivo(
+	usuarioId      UNIQUEIDENTIFIER,
+	dispositivoId   UNIQUEIDENTIFIER,
+
+	CONSTRAINT PK_UsuarioDispositivo PRIMARY KEY (DispositivoId, UsuarioId),
+
+    CONSTRAINT FK_DispositivoUsuario_Usuario FOREIGN KEY (UsuarioID)
+		REFERENCES Usuario(usuarioId),
+
+	CONSTRAINT FK_DispositivoUsuario_Dispositivo FOREIGN KEY (DispositivoId)
+		REFERENCES Dispositivo(dispositivoId)
+        );
+GO

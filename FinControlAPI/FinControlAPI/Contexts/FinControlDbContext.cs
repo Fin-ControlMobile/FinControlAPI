@@ -16,18 +16,42 @@ public partial class FinControlDbContext : DbContext
     {
     }
 
+    public virtual DbSet<Dispositivo> Dispositivo { get; set; }
+
     public virtual DbSet<FormaPagamento> FormaPagamento { get; set; }
+
+    public virtual DbSet<TokenRedefinicaoSenha> TokenRedefinicaoSenha { get; set; }
 
     public virtual DbSet<Transacao> Transacao { get; set; }
 
     public virtual DbSet<Usuario> Usuario { get; set; }
 
-    public virtual DbSet<TokenRedefinicaoSenha> TokenRedefinicaoSenhas { get; set; }
-
-
-
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Dispositivo>(entity =>
+        {
+            entity.Property(e => e.dispositivoId).HasDefaultValueSql("(newid())");
+            entity.Property(e => e.nomeDispositivo)
+                .HasMaxLength(64)
+                .IsUnicode(false);
+
+            entity.HasMany(d => d.usuario).WithMany(p => p.dispositivo)
+                .UsingEntity<Dictionary<string, object>>(
+                    "UsuarioDispositivo",
+                    r => r.HasOne<Usuario>().WithMany()
+                        .HasForeignKey("usuarioId")
+                        .OnDelete(DeleteBehavior.ClientSetNull)
+                        .HasConstraintName("FK_DispositivoUsuario_Usuario"),
+                    l => l.HasOne<Dispositivo>().WithMany()
+                        .HasForeignKey("dispositivoId")
+                        .OnDelete(DeleteBehavior.ClientSetNull)
+                        .HasConstraintName("FK_DispositivoUsuario_Dispositivo"),
+                    j =>
+                    {
+                        j.HasKey("dispositivoId", "usuarioId");
+                    });
+        });
+
         modelBuilder.Entity<FormaPagamento>(entity =>
         {
             entity.HasKey(e => e.formaId);
@@ -36,6 +60,20 @@ public partial class FinControlDbContext : DbContext
             entity.Property(e => e.tipo)
                 .HasMaxLength(50)
                 .IsUnicode(false);
+        });
+
+        modelBuilder.Entity<TokenRedefinicaoSenha>(entity =>
+        {
+            entity.HasKey(e => e.id).HasName("PK__TokenRed__3213E83FA9CECF89");
+
+            entity.Property(e => e.tokenHash)
+                .HasMaxLength(255)
+                .IsUnicode(false);
+
+            entity.HasOne(d => d.usuario).WithMany(p => p.TokenRedefinicaoSenha)
+                .HasForeignKey(d => d.usuarioId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_TokenRedefinicaoSenha_Usuario");
         });
 
         modelBuilder.Entity<Transacao>(entity =>
@@ -63,7 +101,7 @@ public partial class FinControlDbContext : DbContext
 
         modelBuilder.Entity<Usuario>(entity =>
         {
-            entity.HasIndex(e => e.email, "UQ__Usuario__AB6E61645B896464").IsUnique();
+            entity.HasIndex(e => e.email, "UQ__Usuario__AB6E61649D386303").IsUnique();
 
             entity.Property(e => e.usuarioId).HasDefaultValueSql("(newid())");
             entity.Property(e => e.email)
@@ -76,24 +114,6 @@ public partial class FinControlDbContext : DbContext
             entity.Property(e => e.saldo).HasColumnType("decimal(18, 2)");
             entity.Property(e => e.senha).HasMaxLength(32);
         });
-
-        modelBuilder.Entity<TokenRedefinicaoSenha>(entity =>
-        {
-            entity.HasKey(e => e.Id).HasName("PK__TokenRed__3213E83FB66EA039");
-
-            entity.ToTable("TokenRedefinicaoSenha");
-
-            entity.Property(e => e.Id).HasColumnName("id");
-            entity.Property(e => e.ExpiraEm).HasColumnName("expiraEm");
-            entity.Property(e => e.TokenHash)
-                .HasMaxLength(255)
-                .IsUnicode(false)
-                .HasColumnName("tokenHash");
-            entity.Property(e => e.UsuarioId).HasColumnName("usuarioId");
-            entity.Property(e => e.Utilizado).HasColumnName("utilizado");
-        });
-
-        OnModelCreatingPartial(modelBuilder);
 
         OnModelCreatingPartial(modelBuilder);
     }
