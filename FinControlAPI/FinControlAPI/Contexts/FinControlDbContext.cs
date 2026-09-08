@@ -22,6 +22,10 @@ public partial class FinControlDbContext : DbContext
 
     public virtual DbSet<Usuario> Usuario { get; set; }
 
+    public virtual DbSet<TokenRedefinicaoSenha> TokenRedefinicaoSenhas { get; set; }
+
+
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<FormaPagamento>(entity =>
@@ -72,6 +76,24 @@ public partial class FinControlDbContext : DbContext
             entity.Property(e => e.saldo).HasColumnType("decimal(18, 2)");
             entity.Property(e => e.senha).HasMaxLength(32);
         });
+
+        modelBuilder.Entity<TokenRedefinicaoSenha>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__TokenRed__3213E83FB66EA039");
+
+            entity.ToTable("TokenRedefinicaoSenha");
+
+            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.ExpiraEm).HasColumnName("expiraEm");
+            entity.Property(e => e.TokenHash)
+                .HasMaxLength(255)
+                .IsUnicode(false)
+                .HasColumnName("tokenHash");
+            entity.Property(e => e.UsuarioId).HasColumnName("usuarioId");
+            entity.Property(e => e.Utilizado).HasColumnName("utilizado");
+        });
+
+        OnModelCreatingPartial(modelBuilder);
 
         OnModelCreatingPartial(modelBuilder);
     }

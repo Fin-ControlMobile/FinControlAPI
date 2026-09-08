@@ -1,4 +1,4 @@
-using System.Text;
+using FinControlAPI.Applications.Autenticacao;
 using FinControlAPI.Applications.Services;
 using FinControlAPI.Contexts;
 using FinControlAPI.Interfaces;
@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi;
+using System.Text;
 using VH_Burguer.Applications.Autenticacao;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -71,6 +72,9 @@ builder.Services.AddScoped<TransacaoService>();
 // JWT
 builder.Services.AddScoped<GeradorTokenJwt>();
 builder.Services.AddScoped<AutenticacaoService>();
+builder.Services.AddScoped<GeradorTokenRecuperacaoSenha>();
+builder.Services.AddScoped<ITokenRedefinicaoSenhaRepository,TokenRedefinicaoSenhaRepository>();
+builder.Services.AddScoped<IEmailService, EmailService>();
 
 // Configura o sistema de autenticação da aplicação.
 // Aqui estamos dizendo que o tipo de autenticação padrão será JWT Bearer.

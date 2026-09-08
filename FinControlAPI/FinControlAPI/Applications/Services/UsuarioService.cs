@@ -125,6 +125,7 @@ namespace FinControlAPI.Applications.Services
                 nome = usuarioDto.nome,
                 email = usuarioDto.email,
                 senha = CriptografarSenha(usuarioDto.senha),
+                primeiroAcesso = true
             };
 
             _repository.Cadastrar(usuario);
