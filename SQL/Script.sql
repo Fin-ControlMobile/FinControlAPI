@@ -1,9 +1,21 @@
+USE master;
+GO
+
+-- Força a queda de todas as conexões e põe o banco em Single User
+ALTER DATABASE FinControlDb 
+SET SINGLE_USER 
+WITH ROLLBACK IMMEDIATE;
+GO
+
+-- Deleta o banco de vez
+DROP DATABASE FinControlDb;
+GO
+
 CREATE DATABASE FinControlDb
 GO
 USE FinControlDb
 GO
 
---teste
 -- 1. Tabela Usuario
 CREATE TABLE Usuario (
   usuarioId UNIQUEIDENTIFIER NOT NULL DEFAULT NEWID(),
