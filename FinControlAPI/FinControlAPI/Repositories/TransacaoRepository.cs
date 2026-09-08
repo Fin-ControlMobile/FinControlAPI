@@ -24,6 +24,7 @@ namespace FinControlAPI.Repositories
                 .Where(t =>
                     t.usuarioRemetenteId == usuarioId ||
                     t.usuarioDestinatarioId == usuarioId)
+                .OrderByDescending(t => t.dataTransacao)
                 .ToList();
         }
 
@@ -42,6 +43,7 @@ namespace FinControlAPI.Repositories
                      t.usuarioDestinatarioId == usuarioId) &&
                     t.dataTransacao >= inicio &&
                     t.dataTransacao < fim)
+                .OrderByDescending(t => t.dataTransacao)
                 .ToList();
         }
 
@@ -60,6 +62,7 @@ namespace FinControlAPI.Repositories
                      t.usuarioDestinatarioId == usuarioId) &&
                     t.dataTransacao >= inicio &&
                     t.dataTransacao < fim)
+                .OrderByDescending(t => t.dataTransacao)
                 .ToList();
         }
 
@@ -78,6 +81,7 @@ namespace FinControlAPI.Repositories
                      t.usuarioDestinatarioId == usuarioId) &&
                     t.dataTransacao >= inicio &&
                     t.dataTransacao < fim)
+                .OrderByDescending(t => t.dataTransacao)
                 .ToList();
         }
 
@@ -94,6 +98,7 @@ namespace FinControlAPI.Repositories
                     (t.usuarioRemetenteId == usuarioId ||
                      t.usuarioDestinatarioId == usuarioId) &&
                     t.formaPagamentoId == formaPagamentoId)
+                .OrderByDescending(t => t.dataTransacao)
                 .ToList();
         }
 
